@@ -7,7 +7,7 @@ namespace gittest
     {
         public static void Main(string[] args)
         {
-            Passager passager1 = new Passager("Dupont", "Jean", 25);
+            Passager passager1 = new Passager("Antoine", "Marc", 30);
             Voiture voiture1 = new Voiture("Renault", "Clio", "Bleu", 2010, 50);
             Voiture voiture2 = new Voiture("Peugeot", "208", "Rouge", 2015, 60);
             Voiture voiture3 = new Voiture("Citroen", "C3", "Vert", 2018, 70);
