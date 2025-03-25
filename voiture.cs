@@ -13,6 +13,7 @@ namespace gittest
         private string couleur;
         private int annee;
         private int vitesse;
+        private int km;
 
         public Voiture(string marque, string modele, string couleur, int annee, int vitesse)
         {
@@ -51,7 +52,9 @@ namespace gittest
         public void accelerer()
         {
             vitesse += 10;
+            km += 10;
         }
+
 
         public void freiner()
         {
