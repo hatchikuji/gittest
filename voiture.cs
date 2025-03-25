@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace gittest
 {
-    internal class Voiture
+    public class Voiture
     {
         private string marque;
         private string modele;

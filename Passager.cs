@@ -49,7 +49,7 @@ public class Passager
     {
         foreach (Voiture voiture in _voiture)
         {
-            Console.WriteLine(voiture.marque + " " + voiture.modele + " " + " " + voiture.couleur + " " + voiture.annee);
+            Console.WriteLine(voiture.Marque + " " + voiture.Modele + " " + " " + voiture.Couleur + " " + voiture.Annee);
         }
     }
 }
